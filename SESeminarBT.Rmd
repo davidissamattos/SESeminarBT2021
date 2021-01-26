@@ -240,7 +240,7 @@ d3 <- brasil_soccer_league %>%
   dplyr::select(HomeTeam, VisitorTeam, ScoreHomeTeam, ScoreVisitorTeam, Round) 
 ```
 
-```{r}
+```{r eval=F}
 m_football <- bpc(d3, 
           player0 = 'VisitorTeam', 
           player1 =  'HomeTeam', 
@@ -274,4 +274,3 @@ get_rank_of_players_table(m_football, format = 'html')
 ```{r}
 sessionInfo()
 ```
-
