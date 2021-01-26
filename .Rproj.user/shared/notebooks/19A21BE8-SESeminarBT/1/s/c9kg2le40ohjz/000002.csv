@@ -1,0 +1,4 @@
+"0","d3 <- brasil_soccer_league %>%"
+"0","  dplyr::filter(Date >= as.Date(""2019-01-01"") &"
+"0","                  Date <= as.Date(""2019-12-31"")) %>%"
+"0","  dplyr::select(HomeTeam, VisitorTeam, ScoreHomeTeam, ScoreVisitorTeam, Round) "

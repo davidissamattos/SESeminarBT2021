@@ -1,0 +1,282 @@
+"0","m_football <- bpc(d3, "
+"0","          player0 = 'VisitorTeam', "
+"0","          player1 =  'HomeTeam', "
+"0","          player0_score = 'ScoreVisitorTeam',"
+"0","          player1_score = 'ScoreHomeTeam',"
+"0","          model_type = 'davidson',"
+"0","          solve_ties = 'none',"
+"0","          priors = list(prior_lambda_std=2.0), # making a more informative prior to improve convergence"
+"0","          iter = 3000) #stan indicates a low bulk ESS so we are increasing the number of iterations"
+"1","starting worker pid=60811 on localhost:11736 at 12:50:01.906
+"
+"1","starting worker pid=60828 on localhost:11736 at 12:50:02.316
+"
+"1","starting worker pid=60847 on localhost:11736 at 12:50:02.882
+"
+"1","starting worker pid=60863 on localhost:11736 at 12:50:04.406
+"
+"1","
+"
+"1","SAMPLING FOR MODEL 'bt' NOW (CHAIN 1).
+"
+"1","Chain "
+"1","1"
+"1",": "
+"1","
+"
+"1","Chain "
+"1","1"
+"1",": "
+"1","Gradient evaluation took 0.000904 seconds"
+"1","
+"
+"1","Chain "
+"1","1"
+"1",": 1000 transitions using 10 leapfrog steps per transition would take 9.04 seconds.
+Chain 1: Adjust your expectations accordingly!
+Chain 1: 
+Chain 1: 
+"
+"1","Chain "
+"1","1"
+"1",": Iteration:    1 / 3000 [  0%]  (Warmup)
+"
+"1","
+"
+"1","SAMPLING"
+"1"," FOR MODEL 'bt' NOW (CHAIN 2).
+"
+"1","Chain 2: 
+Chain "
+"1","2: Gradient evaluation took 0.000932 seconds
+Chain 2: 1000 transitions using 10 leapfrog steps per transition would take 9.32 seconds.
+Chain 2: Adjust your expectations accordingly!
+Chain 2: 
+Chain 2: 
+"
+"1","Chain 2: Iteration:    1 / 3000 [  0%]  (Warmup)
+"
+"1","
+"
+"1","SAMPLING FOR MODEL 'bt' NOW (CHAIN 3).
+"
+"1","Chain "
+"1","3"
+"1",": "
+"1","
+Chain 3: Gradient evaluation took 0.000908 seconds
+Chain 3: 1000 transitions using 10 leapfrog steps per transition would take 9.08 seconds.
+Chain 3: Adjust your expectations accordingly!
+Chain 3: 
+Chain 3: 
+"
+"1","Chain "
+"1","3"
+"1",": Iteration:    1 / 3000 [  0%]  (Warmup)
+"
+"1","Chain 1"
+"1",": Iteration:  300 / 3000 [ 10%]  (Warmup)
+"
+"1","
+"
+"1","SAMPLING"
+"1"," FOR MODEL '"
+"1","bt"
+"1","' NOW (CHAIN "
+"1","4"
+"1",").
+"
+"1","Chain "
+"1","4"
+"1",": "
+"1","
+"
+"1","Chain "
+"1","4"
+"1",": "
+"1","Gradient evaluation took 0.00095 seconds
+Chain 4: 1000 transitions using 10 leapfrog steps per transition would take 9.5 seconds.
+Chain 4: Adjust your expectations accordingly!
+Chain 4: 
+Chain 4: 
+"
+"1","Chain 4: Iteration:    1 / 3000 [  0%]  (Warmup)
+"
+"1","Chain 2: Iteration:  300 / 3000 [ 10%]  (Warmup)
+"
+"1","Chain 1: Iteration:  600 / 3000 [ 20%]  (Warmup)
+"
+"1","Chain "
+"1","3"
+"1",": "
+"1","Iteration:  300 / 3000 [ 10%]  (Warmup)"
+"1","
+"
+"1","Chain "
+"1","4"
+"1",": "
+"1","Iteration:  300 / 3000 [ 10%]  (Warmup)"
+"1","
+"
+"1","Chain 2: Iteration:  600 / 3000 [ 20%]  (Warmup)
+"
+"1","Chain 1: Iteration:  900 / 3000 [ 30%]  (Warmup)
+"
+"1","Chain "
+"1","1"
+"1",": "
+"1","Iteration: 1001 / 3000 [ 33%]  (Sampling)"
+"1","
+"
+"1","Chain "
+"1","3: Iteration:  600 / 3000 [ 20%]  (Warmup)
+"
+"1","Chain 2: Iteration:  900 / 3000 [ 30%]  (Warmup)
+"
+"1","Chain 4: Iteration:  600 / 3000 [ 20%]  (Warmup)
+"
+"1","Chain "
+"1","2"
+"1",": Iteration: 1001 / 3000 [ 33%]  (Sampling)
+"
+"1","Chain 1: Iteration: 1300 / 3000 [ 43%]  (Sampling)
+"
+"1","Chain 3: Iteration:  900 / 3000 [ 30%]  (Warmup)
+"
+"1","Chain "
+"1","4"
+"1",": Iteration:  900 / 3000 [ 30%]  (Warmup)
+"
+"1","Chain 3: Iteration: 1001 / 3000 [ 33%]  (Sampling)
+"
+"1","Chain "
+"1","2"
+"1",": "
+"1","Iteration: 1300 / 3000 [ 43%]  (Sampling)
+"
+"1","Chain "
+"1","4"
+"1",": "
+"1","Iteration: 1001 / 3000 [ 33%]  (Sampling)"
+"1","
+"
+"1","Chain "
+"1","1"
+"1",": "
+"1","Iteration: 1600 / 3000 [ 53%]  (Sampling)"
+"1","
+"
+"1","Chain 3: Iteration: 1300 / 3000 [ 43%]  (Sampling)
+"
+"1","Chain 2: Iteration: 1600 / 3000 [ 53%]  (Sampling)
+"
+"1","Chain "
+"1","4: Iteration: 1300 / 3000 [ 43%]  (Sampling)
+"
+"1","Chain 1: Iteration: 1900 / 3000 [ 63%]  (Sampling)
+"
+"1","Chain "
+"1","3"
+"1",": "
+"1","Iteration: 1600 / 3000 [ 53%]  (Sampling)
+"
+"1","Chain "
+"1","2"
+"1",": Iteration: 1900 / 3000 [ 63%]  (Sampling)
+"
+"1","Chain 4: Iteration: 1600 / 3000 [ 53%]  (Sampling)
+"
+"1","Chain "
+"1","1: Iteration: 2200 / 3000 [ 73%]  (Sampling)
+"
+"1","Chain "
+"1","3: Iteration: 1900 / 3000 [ 63%]  (Sampling)
+"
+"1","Chain "
+"1","2"
+"1",": "
+"1","Iteration: 2200 / 3000 [ 73%]  (Sampling)
+"
+"1","Chain 4: Iteration: 1900 / 3000 [ 63%]  (Sampling)
+"
+"1","Chain "
+"1","1: Iteration: 2500 / 3000 [ 83%]  (Sampling)
+"
+"1","Chain 3: Iteration: 2200 / 3000 [ 73%]  (Sampling)
+"
+"1","Chain 2: Iteration: 2500 / 3000 [ 83%]  (Sampling)
+"
+"1","Chain 4: Iteration: 2200 / 3000 [ 73%]  (Sampling)
+"
+"1","Chain "
+"1","1: Iteration: 2800 / 3000 [ 93%]  (Sampling)
+"
+"1","Chain 3: Iteration: 2500 / 3000 [ 83%]  (Sampling)
+"
+"1","Chain "
+"1","1"
+"1",": Iteration: 3000 / 3000 [100%]  (Sampling)
+"
+"1","Chain 1: 
+Chain 1:  Elapsed Time: 3.83663 seconds (Warm-up)
+"
+"1","Chain 1:                6.34964 seconds (Sampling)
+Chain 1:                10.1863 seconds (Total)
+Chain 1: 
+"
+"1","Chain "
+"1","2"
+"1",": Iteration: 2800 / 3000 [ 93%]  (Sampling)
+"
+"1","Chain "
+"1","4"
+"1",": "
+"1","Iteration: 2500 / 3000 [ 83%]  (Sampling)"
+"1","
+"
+"1","Chain "
+"1","2: Iteration: 3000 / 3000 [100%]  (Sampling)
+"
+"1","Chain "
+"1","2"
+"1",": 
+Chain 2:  Elapsed Time: 3.85493 seconds (Warm-up)
+Chain 2:                6.37441 seconds (Sampling)
+Chain 2:                10.2293 seconds (Total)
+Chain 2: 
+"
+"1","Chain "
+"1","3"
+"1",": "
+"1","Iteration: 2800 / 3000 [ 93%]  (Sampling)
+"
+"1","Chain 4: Iteration: 2800 / 3000 [ 93%]  (Sampling)
+"
+"1","Chain "
+"1","3"
+"1",": "
+"1","Iteration: 3000 / 3000 [100%]  (Sampling)"
+"1","
+"
+"1","Chain "
+"1","3"
+"1",": "
+"1","
+"
+"1","Chain "
+"1","3:  Elapsed Time: 3.83546 seconds (Warm-up)
+Chain 3:                6.2985 seconds (Sampling)
+Chain 3:                10.134 seconds (Total)
+Chain 3: 
+"
+"1","Chain "
+"1","4: Iteration: 3000 / 3000 [100%]  (Sampling)
+"
+"1","Chain "
+"1","4"
+"1",": 
+Chain 4:  Elapsed Time: 3.93024 seconds (Warm-up)
+Chain 4:                6.4828 seconds (Sampling)
+Chain 4:                10.413 seconds (Total)
+Chain 4: 
+"

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<style>body{background-color:white;}</style>
+<script src="lib/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="lib/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<script src="lib/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="lib/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="lib/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="lib/kePrint-0.0.1/kePrint.js"></script>
+<link href="lib/lightable-0.0.1/lightable.css" rel="stylesheet" />
+
+</head>
+<body>
+<div style="border: 1px solid #ddd; padding: 5px; overflow-x: scroll; width:100%; "><table class="table table-striped table-hover table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
+ <thead>
+  <tr>
+   <th style="text-align:right;"> X1 </th>
+   <th style="text-align:left;"> ValueType </th>
+   <th style="text-align:right;"> Value </th>
+   <th style="text-align:right;"> Iteration </th>
+   <th style="text-align:left;"> Variable </th>
+   <th style="text-align:left;"> Model </th>
+   <th style="text-align:left;"> Dataset </th>
+   <th style="text-align:left;"> DataType </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:right;"> 26 </td>
+   <td style="text-align:left;"> accuracy </td>
+   <td style="text-align:right;"> 0.0502274 </td>
+   <td style="text-align:right;"> 6 </td>
+   <td style="text-align:left;"> 50% </td>
+   <td style="text-align:left;"> LabelPropagation_knn </td>
+   <td style="text-align:left;"> ohsumed </td>
+   <td style="text-align:left;"> text </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 8 </td>
+   <td style="text-align:left;"> accuracy </td>
+   <td style="text-align:right;"> 0.2756910 </td>
+   <td style="text-align:right;"> 8 </td>
+   <td style="text-align:left;"> 10% </td>
+   <td style="text-align:left;"> LabelPropagation_knn </td>
+   <td style="text-align:left;"> german </td>
+   <td style="text-align:left;"> numeric </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 25 </td>
+   <td style="text-align:left;"> accuracy </td>
+   <td style="text-align:right;"> 0.0502274 </td>
+   <td style="text-align:right;"> 5 </td>
+   <td style="text-align:left;"> 50% </td>
+   <td style="text-align:left;"> LabelSpreading_rbf </td>
+   <td style="text-align:left;"> ohsumed </td>
+   <td style="text-align:left;"> text </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 5 </td>
+   <td style="text-align:left;"> accuracy </td>
+   <td style="text-align:right;"> 0.1280959 </td>
+   <td style="text-align:right;"> 5 </td>
+   <td style="text-align:left;"> 10% </td>
+   <td style="text-align:left;"> LabelPropagation_rbf </td>
+   <td style="text-align:left;"> 20news </td>
+   <td style="text-align:left;"> text </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 21 </td>
+   <td style="text-align:left;"> accuracy </td>
+   <td style="text-align:right;"> 0.0456413 </td>
+   <td style="text-align:right;"> 1 </td>
+   <td style="text-align:left;"> 50% </td>
+   <td style="text-align:left;"> LabelSpreading_knn </td>
+   <td style="text-align:left;"> cifar2 </td>
+   <td style="text-align:left;"> image </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 9 </td>
+   <td style="text-align:left;"> accuracy </td>
+   <td style="text-align:right;"> 0.3333333 </td>
+   <td style="text-align:right;"> 9 </td>
+   <td style="text-align:left;"> 10% </td>
+   <td style="text-align:left;"> LabelSpreading_knn </td>
+   <td style="text-align:left;"> corpus </td>
+   <td style="text-align:left;"> text </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 28 </td>
+   <td style="text-align:left;"> accuracy </td>
+   <td style="text-align:right;"> 0.1650311 </td>
+   <td style="text-align:right;"> 8 </td>
+   <td style="text-align:left;"> 50% </td>
+   <td style="text-align:left;"> LabelSpreading_knn </td>
+   <td style="text-align:left;"> wine </td>
+   <td style="text-align:left;"> numeric </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 8 </td>
+   <td style="text-align:left;"> accuracy </td>
+   <td style="text-align:right;"> 0.4365886 </td>
+   <td style="text-align:right;"> 8 </td>
+   <td style="text-align:left;"> 10% </td>
+   <td style="text-align:left;"> LabelSpreading_rbf </td>
+   <td style="text-align:left;"> 20news </td>
+   <td style="text-align:left;"> text </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 27 </td>
+   <td style="text-align:left;"> accuracy </td>
+   <td style="text-align:right;"> 0.1280959 </td>
+   <td style="text-align:right;"> 7 </td>
+   <td style="text-align:left;"> 50% </td>
+   <td style="text-align:left;"> LabelPropagation_rbf </td>
+   <td style="text-align:left;"> 20news </td>
+   <td style="text-align:left;"> text </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 25 </td>
+   <td style="text-align:left;"> accuracy </td>
+   <td style="text-align:right;"> 0.0473790 </td>
+   <td style="text-align:right;"> 5 </td>
+   <td style="text-align:left;"> 50% </td>
+   <td style="text-align:left;"> LabelSpreading_knn </td>
+   <td style="text-align:left;"> cifar2 </td>
+   <td style="text-align:left;"> image </td>
+  </tr>
+</tbody>
+</table></div> <script type="text/x-mathjax-config">MathJax.Hub.Config({tex2jax: {inlineMath: [["$","$"]]}})</script><script async src="https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
+</html>

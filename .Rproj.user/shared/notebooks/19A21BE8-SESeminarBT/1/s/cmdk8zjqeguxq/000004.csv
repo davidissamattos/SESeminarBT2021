@@ -1,0 +1,7 @@
+"0","d_acc_rank <- d2 %>% "
+"0","  dplyr::group_by(Dataset, Variable, Iteration) %>%"
+"0","  dplyr::mutate(Rank=-rank(Value, ties.method = 'random')) %>% "
+"0","  dplyr::ungroup() %>% "
+"0","  dplyr::select(-Value) %>% #we need to drop the Value variable to pivot wider"
+"0","  tidyr::pivot_wider(names_from = Model,"
+"0","                     values_from=Rank)"

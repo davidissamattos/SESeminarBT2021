@@ -1,0 +1,3 @@
+"0","d <- readr::read_csv('data/touchscreen.csv') %>% "
+"0","  dplyr::filter(species_type=='Gorilla') %>% "
+"0","  dplyr::select(species_type, SubjectCode, Trial, image1, image2, image_chosen)"

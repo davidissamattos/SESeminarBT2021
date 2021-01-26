@@ -1,0 +1,7 @@
+"0","library(bpcs)"
+"0","library(tidyverse)"
+"0","library(knitr)"
+"0","library(kableExtra)"
+"0","options(mc.cores = parallel::detectCores())"
+"0","rstan::rstan_options(auto_write = TRUE)"
+"0","set.seed(99)"

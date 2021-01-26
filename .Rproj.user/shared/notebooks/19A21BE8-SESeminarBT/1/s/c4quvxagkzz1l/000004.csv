@@ -1,0 +1,8 @@
+"0","d2 <- read_csv('./data/auto-label-comparison.csv') %>%"
+"0","  dplyr::rename(Value='value') %>% "
+"0","  dplyr::filter(ValueType=='accuracy') %>% "
+"0","  dplyr::filter(Model=='LabelPropagation_knn' | "
+"0","                Model=='LabelPropagation_rbf' |"
+"0","                Model=='LabelSpreading_knn' |"
+"0","                Model=='LabelSpreading_rbf')"
+"2","Missing column names filled in: 'X1' [1]"

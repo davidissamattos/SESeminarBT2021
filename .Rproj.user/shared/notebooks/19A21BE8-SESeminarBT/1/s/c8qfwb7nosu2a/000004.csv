@@ -1,0 +1,5 @@
+"0","d_acc_bt %>% "
+"0","  dplyr::sample_n(size=20) %>% "
+"0","  kable() %>% "
+"0","  kableExtra::kable_styling(bootstrap_options = c(""striped"", ""hover"", ""condensed"", ""responsive"")) %>%"
+"0","  kableExtra::scroll_box(width = ""100%"")"

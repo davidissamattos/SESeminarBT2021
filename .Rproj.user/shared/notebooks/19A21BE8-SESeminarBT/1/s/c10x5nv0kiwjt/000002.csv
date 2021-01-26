@@ -1,0 +1,3 @@
+"0","d <- d %>% "
+"0","  dplyr::mutate(y =ifelse(image_chosen==image1, 0, 1)) %>% "
+"0","  select(-image_chosen)"
