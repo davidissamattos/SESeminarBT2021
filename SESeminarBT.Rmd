@@ -222,6 +222,19 @@ get_probabilities_table(m1_autol, format = 'html', model_type = 'bt')
 get_rank_of_players_table(m1_autol, format = 'html')
 ```
 
+```{r}
+plot(m1_autol, rotate_x_labels = T)+
+  scale_x_discrete(
+  labels = c(
+    "LS-RBF",
+    "LS-KNN",
+    "LP-KNN",
+    "LP-RBF"
+  ))
+  
+```
+
+
 # Football
 
 The data comes in the bpcs package
@@ -268,6 +281,13 @@ Ranking the teams
 ```{r}
 get_rank_of_players_table(m_football, format = 'html')
 ```
+
+Plot
+
+```{r}
+plot(m_football, rotate_x_labels = T)
+```
+
 
 # Environment
 
